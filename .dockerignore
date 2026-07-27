@@ -1,0 +1,42 @@
+.git
+.gitignore
+.dockerignore
+
+# Local environment and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+id_rsa
+id_ed25519
+
+# Runtime data and generated files
+data/
+logs/
+*.log
+*.jar
+
+# Build output and dependency folders
+build/
+dist/
+target/
+node_modules/
+coverage/
+
+# Language caches and local environments
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+.history/
+
+# Project-specific exceptions can be added below with !path/to/file.
