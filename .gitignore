@@ -1,0 +1,44 @@
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+id_rsa
+id_rsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Logs and runtime output
+*.log
+logs/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editors and IDEs
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+.history/
+*~
+*.swp
+*.swo
+
+# Docker local overrides
+docker-compose.override.yml
+compose.override.yml
+.docker.env
+
+# Database exports, backups, and temporary files
+*.sql
+*.sql.gz
+*.bak
+*.tmp
